@@ -1,6 +1,7 @@
 # clojure-extras-plugin Changelog
 
 ## [Unreleased]
+- Unlink unused stuff
 
 ## 0.8.3
 - Upgrade plugin for IJ 2025.1

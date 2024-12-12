@@ -32,36 +32,36 @@
         <postStartupActivity
                 implementation="com.github.brcosta.cljstuffplugin.extensions.CljKondoNotifier"/>
 
-        <fileEditorProvider implementation="com.github.brcosta.cljstuffplugin.actions.ReplFileEditorProvider"/>
+        <!--<fileEditorProvider implementation="com.github.brcosta.cljstuffplugin.actions.ReplFileEditorProvider"/>-->
 
-        <editorTabTitleProvider implementation="com.github.brcosta.cljstuffplugin.extensions.CustomEditorTabProvider" />
+        <!--<editorTabTitleProvider implementation="com.github.brcosta.cljstuffplugin.extensions.CustomEditorTabProvider" />-->
 
     </extensions>
 
     <actions>
 
-        <action id="Clj.Stuff.EvaluateTopForm" class="com.github.brcosta.cljstuffplugin.actions.EvaluateTopFormAction"
+        <!--<action id="Clj.Stuff.EvaluateTopForm" class="com.github.brcosta.cljstuffplugin.actions.EvaluateTopFormAction"
                 text="Evaluate Top Form (Inline)"
                 description="Evaluate Top Form (Inline)">
             <add-to-group group-id="ToolsMenu"/>
-        </action>
+        </action>-->
 
-        <action id="Clj.Stuff.EvaluatePrevForm" class="com.github.brcosta.cljstuffplugin.actions.EvaluatePrevFormAction"
+        <!--<action id="Clj.Stuff.EvaluatePrevForm" class="com.github.brcosta.cljstuffplugin.actions.EvaluatePrevFormAction"
                 text="Evaluate Previous Form (Inline)"
                 description="Evaluate Previous Form (Inline)">
             <add-to-group group-id="ToolsMenu"/>
-        </action>
+        </action>-->
 
         <action id="Clj.Stuff.LintClasspath" class="com.github.brcosta.cljstuffplugin.actions.AnalyzeClasspathAction"
-                text="Clj-kondo: Analyze Classpath"
+                text="clj-kondo: Analyze Classpath"
                 description="Clj-kondo: Analyze classpath for better linting results">
             <add-to-group group-id="ToolsMenu"/>
         </action>
 
-        <action id="com.github.brcosta.cljstuffplugin.actions.OpenReplBufferAction"
+        <!--<action id="com.github.brcosta.cljstuffplugin.actions.OpenReplBufferAction"
                 class="com.github.brcosta.cljstuffplugin.actions.OpenReplBufferAction"
                 text="Open Repl as File Buffer (Experimental)" description="Open Repl as File Buffer (Experimental)">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
-        </action>
+        </action>-->
     </actions>
 </idea-plugin>
