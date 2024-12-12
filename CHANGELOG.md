@@ -1,6 +1,8 @@
 # clojure-extras-plugin Changelog
 
 ## [Unreleased]
+
+## 0.8.4-imrekoszo-2
 - Unlink unused stuff
 
 ## 0.8.3
