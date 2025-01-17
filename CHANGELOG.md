@@ -4,6 +4,7 @@
 
 ## 0.8.3
 - Upgrade plugin for IJ 2025.1
+- Update Built-in clj-kondo -> v2025.02.20
 
 ## 0.8.2
 - Fix deserialization failure
