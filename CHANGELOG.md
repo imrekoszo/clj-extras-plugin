@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+## 0.8.3
 - Upgrade plugin for IJ 2025.1
 
 ## 0.8.2
