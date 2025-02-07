@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Upgrade plugin for IJ 2025.1
+
 ## 0.8.2
 - Fix deserialization failure
 
